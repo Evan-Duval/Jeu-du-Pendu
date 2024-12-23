@@ -124,7 +124,7 @@ int main() {
         int nbWords = 0; // Compter le nombre de mots lus
         char wordToFind[MAX_LENGTH];
 
-        FILE *file = fopen("C:\\Users\\duval\\Documents\\GitHub\\langage-C\\jeu du pendu\\words.txt", "r"); // Ouverture du fichier en mode lecture
+        FILE *file = fopen("C:\\Users\\duval\\Documents\\GitHub\\Jeu-du-Pendu\\words.txt", "r"); // Ouverture du fichier en mode lecture
         if (file == NULL) {
             printf("Erreur lors de l'ouverture du fichier.\n");
             return 1;
